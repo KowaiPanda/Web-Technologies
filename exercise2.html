@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: "Nunito Sans";
+            background-color: #f8f9fa;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 20px;
+        }
+
+        img {
+            width: 300px;
+            height: 400px;
+            border: 2px solid black;
+        }
+
+        table {
+            width: 100%;
+            background-color: white;
+            border-collapse: collapse;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+        }
+
+        thead th, tfoot th {
+            background-color: #f472b6;
+            color: white;
+            font-weight: bold;
+        }
+
+        tbody tr {
+            border-bottom: 1px solid #dddddd;
+        }
+
+        .container {
+            display: flex;
+            padding: 20px;
+            justify-content: space-between;
+        }
+
+        .box1, .box2 {
+            width: 40%;
+            padding: 20px;
+            display: flex;
+            gap: 12px;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hottest Games of 2025</h1>
+    <p>A look through over some of the popular games that have been released in the year 2025</p>
+    <div class="container">
+        <div class="box1">
+            <img src="images/e33.avif" alt="Expedition 33">
+            <p>
+                Clair Obscur: Expedition 33, one of the hottest game of the year released on 24th April this year,
+                is a turn-based RPG with unique real-time mechanics. The story of the game follows Gustave and the
+                33rd Expedition to their journey to the Paintress, who is painting death upon the people of Lumière
+                referred to as the Gommage. The game is visually breathtaking with the gorgeous art design of the
+                world and paired with music which is truly mesmerizing to create a truly unique experience.
+            </p>
+            <table>
+                <thead>
+                    <th>Criteria</th>
+                    <th>Score</th>
+                </thead>
+                <tr>
+                    <th>Gameplay</th>
+                    <td>9.5</td>
+                </tr>
+                <tr>
+                    <th>Story</th>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <th>Music</th>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <th>Art</th>
+                    <td>8.5</td>
+                </tr>
+                <tfoot>
+                    <th>Overall</th>
+                    <th>9.25</th>
+                </tfoot>
+            </table>
+            <a href="https://store.steampowered.com/app/1903340/Clair_Obscur_Expedition_33" target="_blank">Buy Clair Obscur: Expedition 33</a>
+        </div>
+        <div class="box2">
+            <img src="images/nightreign.png" alt="nightreign">
+            <p>
+                Elden Ring Nightreign is a 3 player rouge-like soulsborne spin off from the original game Elden Ring
+                released on 30th May. The game takes the core gameplay mechanics of Elden Ring and turns it into a
+                fast paced rouge-like adventure where the Nightfarers, that is the players are tasked to relinquish
+                the Nightlord that terrorizes the lands of Limveld over the span of 3 day and night cycle. A unique
+                clash of genres has made one the most fun games that has been released this year.
+            </p>
+            <table>
+                <thead>
+                    <th>Criteria</th>
+                    <th>Score</th>
+                </thead>
+                <tr>
+                    <th>Gameplay</th>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <th>Story</th>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <th>Music</th>
+                    <td>8.5</td>
+                </tr>
+                <tr>
+                    <th>Art</th>
+                    <td>8.5</td>
+                </tr>
+                <tfoot>
+                    <th>Overall</th>
+                    <th>8.25</th>
+                </tfoot>
+            </table>
+            <a href="http://store.steampowered.com/app/2622380/ELDEN_RING_NIGHTREIGN" target="_blank">Buy Elden Ring Nightreign</a>
+        </div>
+    </div>
+    <a href="index.html">Go back to exercises</a>
+</body>
+</html>
